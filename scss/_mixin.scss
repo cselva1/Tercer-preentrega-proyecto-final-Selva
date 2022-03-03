@@ -1,0 +1,8 @@
+@mixin fondo {
+    background-color:#fefae0; 
+
+}
+
+.tcard{
+    @include fondo;
+}

@@ -1,0 +1,114 @@
+.ucard {
+  max-width: auto;
+  text-align: center; }
+
+.titulos {
+  font-family: 'Yuji Syuku', serif; }
+
+.principalUshuaia {
+  font-family: 'Yuji Syuku', serif; }
+
+.titulo_conoce {
+  font-family: 'Yuji Syuku', serif; }
+
+.menu {
+  font-family: 'Yuji Syuku', serif; }
+
+.tcard, .ucard {
+  background-color: #fefae0; }
+
+.principal {
+  margin: 15px 0; }
+
+.excursion, .testimonio, .temporada, .nosotros {
+  margin: 15px 0; }
+
+.img-logo {
+  width: 85px; }
+
+#contenido {
+  text-align: center;
+  margin: auto; }
+
+.bigicon {
+  font-size: 35px;
+  color: red; }
+
+.subtitulo {
+  text-align: center;
+  justify-content: center; }
+
+#contact {
+  font-size: .7rem; }
+
+#espec {
+  font-size: 0.9rem; }
+
+#derecho {
+  height: 3%; }
+
+.col {
+  margin-top: 10px; }
+
+.conoce_ushuaia {
+  background-image: url("./images/invierno1.jpg"); }
+
+.menu {
+  background-color: black;
+  height: 55px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(92, 91, 91, 0.452);
+  box-shadow: 5px 0 10px rgba(92, 91, 91, 0.973); }
+
+.btn {
+  display: flex;
+  justify-content: center; }
+
+.card {
+  text-align: center; }
+
+.nosotros {
+  background-color: #fefae0; }
+
+.lista_menu {
+  display: flex;
+  list-style: none;
+  margin-right: 65px; }
+  .lista_menu li {
+    border-radius: 1px;
+    margin: 0 5px; }
+    .lista_menu li a {
+      padding: 15px 13px;
+      text-decoration: none;
+      font-size: 16px;
+      display: block;
+      text-transform: uppercase;
+      color: #ffffff; }
+    .lista_menu li:hover .active {
+      background-color: rgba(2, 255, 65, 0.3);
+      transition: .3s; }
+
+.tcard, .ucard {
+  border-radius: 4px;
+  padding: 16px;
+  box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.15); }
+
+.avatar, .ucard > img {
+  width: 125px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 10px 0px; }
+
+.titletest, .ucard > h3 {
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 5px;
+  opacity: 0.85; }
+
+.small, .ucard > small {
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 0.75; }

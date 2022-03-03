@@ -1,0 +1,15 @@
+.ucard {
+   @extend .tcard;
+   max-width:auto;
+   text-align:center;
+   >img{
+       @extend .avatar;   
+   } 
+   >h3{
+       @extend .titletest;
+   }
+   >small{
+       @extend .small;
+   }
+}
+
